@@ -10,7 +10,7 @@ export default function Home() {
 
 			<header className='relative flex items-center justify-center h-screen mb-12 overflow-hidden'>
 				<div className='relative z-30 p-5 text-2xl text-white rounded-xl mx-auto max-w-xl text-center'>
-					<img src='/bsr-logo-white.png' alt='bsr logo' className='center' />
+					<img src='/bsr-logo-white.png' alt='bsr logo' className='mx-auto' />
 					<h1 className='text-3xl font-extrabold sm:text-5xl'>
 						Find the home and the Holistic-Luxury
 						<strong className='font-extrabold text-emerald-600 sm:block'>
@@ -28,8 +28,59 @@ export default function Home() {
 				</video>
 			</header>
 
+			<section>
+				<div className='mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8'>
+					<div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
+						<div className='bg-emerald-600 p-8 md:p-12 lg:px-16 lg:py-24'>
+							<div className='mx-auto max-w-xl text-center'>
+								<h2 className='text-2xl font-bold text-white md:text-3xl'>About Anna & Gene Verett </h2>
+
+								<p className='hidden text-white/90 sm:mt-4 sm:block'>
+									we are dedicated to providing exceptional real estate services in the prestigious Broken Sound Club
+									community in Boca Raton. As seasoned professionals in the industry, we specialize in connecting
+									discerning buyers with exquisite properties that perfectly complement their lifestyles.
+								</p>
+
+								<p className='hidden text-white/90 sm:mt-4 sm:block'>
+									Our team of experienced realtors understands the unique appeal and exclusivity of the Broken Sound
+									Club. We possess an in-depth knowledge of the community, its amenities, and the diverse range of
+									properties available. Whether you are seeking a luxurious single-family home, an elegant townhouse, or
+									a spacious condominium, we have the expertise to guide you through the entire buying process.
+								</p>
+								<div className='mt-4 md:mt-8'>
+									<a
+										href='#'
+										className='inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-blue-500 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400'>
+										Call Us
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div className='grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2'>
+							<img
+								alt='Student'
+								src='https://images.unsplash.com/photo-1621274790572-7c32596bc67f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80'
+								className='h-40 w-full object-cover sm:h-56 md:h-full'
+							/>
+
+							<img
+								alt='Student'
+								src='https://media.licdn.com/dms/image/C4E03AQG4W4t-SfzrWQ/profile-displayphoto-shrink_800_800/0/1627162702647?e=2147483647&v=beta&t=05UaAciMl1CQx1aD5YX-RTx3CwHhhgkpogO8L12MZo8'
+								className='h-40 w-full object-cover sm:h-56 md:h-full'
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<main className='mx-auto max-w-screen-xl'>
-				<div className='mx-auto max-w-5xl px-4 py-8 my-40'>
+				<h2 className='text-3xl font-bold sm:text-4xl my-20'>
+					Testimonials
+					<hr />
+				</h2>
+
+				<div className='mx-auto max-w-5xl px-4 py-8 my-10'>
 					<section className='rounded-lg bg-gray-100 p-8'>
 						<div className='grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center'>
 							<img
