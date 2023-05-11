@@ -1,6 +1,5 @@
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import Image from 'next/image'
 
 import { steps, sections } from '../../data/data'
 
@@ -9,37 +8,25 @@ export default function Home() {
 		<>
 			<Header />
 
-			<section className='bg-gray-50 mb-40'>
-				<div className='mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center'>
-					<div className='mx-auto max-w-xl text-center'>
-						<h1 className='text-3xl font-extrabold sm:text-5xl'>
-							Find the home and the Holistic-Luxury
-							<strong className='font-extrabold text-emerald-600 sm:block'>
-								Lifestyle that you have been looking for{' '}
-							</strong>
-						</h1>
-
-						<p className='mt-4 sm:text-xl/relaxed'>
-							Our personalized approach ensures a seamless buying or selling process, helping you achieve top dollar for
-							your home with ease.
-						</p>
-
-						<div className='mt-8 flex flex-wrap justify-center gap-4'>
-							<a
-								className='block w-full rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-emerald-700 focus:outline-none focus:ring active:bg-emerald-500 sm:w-auto'
-								href='/get-started'>
-								For Buyers
-							</a>
-
-							<a
-								className='block w-full rounded px-12 py-3 text-sm font-medium text-emerald-600 shadow hover:text-emerald-700 focus:outline-none focus:ring active:text-emerald-500 sm:w-auto'
-								href='/about'>
-								For Sellers
-							</a>
-						</div>
-					</div>
+			<header className='relative flex items-center justify-center h-screen mb-12 overflow-hidden'>
+				<div className='relative z-30 p-5 text-2xl text-white rounded-xl mx-auto max-w-xl text-center'>
+					<img src='/bsr-logo-white.png' alt='bsr logo' className='center' />
+					<h1 className='text-3xl font-extrabold sm:text-5xl'>
+						Find the home and the Holistic-Luxury
+						<strong className='font-extrabold text-emerald-600 sm:block'>
+							Lifestyle that you have been looking for
+						</strong>
+					</h1>
+					<p className='mt-4 sm:text-xl/relaxed'>
+						Our personalized approach ensures a seamless buying or selling process, helping you achieve top dollar for
+						your home with ease.
+					</p>
 				</div>
-			</section>
+				<video autoPlay loop muted className='absolute z-10 w-auto min-w-full min-h-full max-w-none'>
+					<source src='/broken-sounds-video.mp4' type='video/mp4' />
+					Your browser does not support the video tag.
+				</video>
+			</header>
 
 			<main className='mx-auto max-w-screen-xl'>
 				<div className='mx-auto max-w-5xl px-4 py-8 my-40'>
