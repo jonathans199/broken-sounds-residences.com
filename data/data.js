@@ -13,14 +13,14 @@ export const steps = [
 		subTitle: 'PLAN FOR SUCCESS',
 		description:
 			'Next we will help you put a plan in place so you can achieve your goals quickly and without unnecessary stress',
-		img: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
+		img: 'https://images.unsplash.com/photo-1517840933437-c41356892b35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
 	},
 	{
 		id: 2,
 		title: 'Step 3',
 		subTitle: 'GET A DEAL YOU LOVE',
 		description: 'Nice and easy we will guide through a closing you love',
-		img: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
+		img: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80',
 	},
 	{
 		id: 3,
@@ -28,7 +28,7 @@ export const steps = [
 		subTitle: 'GET LIFE LONG SUPPORT',
 		description:
 			"Our commitment doesn't end at closing, through our clients close relationship,  we will stay on your corner as long as you will have us. ",
-		img: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
+		img: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80',
 	},
 ]
 

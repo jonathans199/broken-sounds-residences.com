@@ -1,5 +1,9 @@
+'use client'
+
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+
+import { Carousel } from 'flowbite-react'
 
 import { steps, sections } from '../../data/data'
 
@@ -75,36 +79,96 @@ export default function Home() {
 			</section>
 
 			<main className='mx-auto max-w-screen-xl'>
-				<h2 className='text-3xl font-bold sm:text-4xl my-20'>
+				<h2 className='text-4xl font-bold sm:text-5xl my-40  text-slate-600'>
 					Testimonials
 					<hr />
 				</h2>
 
-				<div className='mx-auto max-w-5xl px-4 py-8 my-10'>
-					<section className='rounded-lg bg-gray-100 p-8'>
-						<div className='grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center'>
-							<img
-								alt='Man'
-								src='https://images.unsplash.com/photo-1625019030820-e4ed970a6c95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
-								className='aspect-square w-full rounded-lg object-cover'
-							/>
+				<div className='h-56 sm:h-64 xl:h-80 2xl:h-96 mb-96'>
+					<Carousel>
+						<div className='mx-auto max-w-5xl px-4 py-8 my-10'>
+							<section className='rounded-lg bg-gray-100  p-8'>
+								<div className='grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center'>
+									<img
+										alt='Man'
+										src='https://images.unsplash.com/photo-1625019030820-e4ed970a6c95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+										className='aspect-square w-full rounded-lg object-cover'
+									/>
 
-							<blockquote className='sm:col-span-2'>
-								<p className='text-xl font-medium sm:text-2xl'>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis cumque neque ut nobis
-									excepturi, quasi iure quisquam autem alias.
-								</p>
+									<blockquote className='sm:col-span-2'>
+										<p className='text-xl font-medium sm:text-2xl'>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis cumque neque ut nobis
+											excepturi, quasi iure quisquam autem alias.
+										</p>
 
-								<cite className='mt-8 inline-flex items-center not-italic'>
-									<span className='hidden h-px w-6 bg-gray-400 sm:inline-block'></span>
-									<p className='text-sm uppercase text-gray-500 sm:ms-3'>
-										<strong>Justin Harrison</strong>, Beatle Inc.
-									</p>
-								</cite>
-							</blockquote>
+										<cite className='mt-8 inline-flex items-center not-italic'>
+											<span className='hidden h-px w-6 bg-gray-400 sm:inline-block'></span>
+											<p className='text-sm uppercase text-gray-500 sm:ms-3'>
+												<strong>Justin Harrison</strong>, Beatle Inc.
+											</p>
+										</cite>
+									</blockquote>
+								</div>
+							</section>
 						</div>
-					</section>
+
+						<div className='mx-auto max-w-5xl px-4 py-8 my-10'>
+							<section className='rounded-lg bg-gray-100  p-8'>
+								<div className='grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center'>
+									<img
+										alt='Man'
+										src='https://images.unsplash.com/photo-1625019030820-e4ed970a6c95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+										className='aspect-square w-full rounded-lg object-cover'
+									/>
+
+									<blockquote className='sm:col-span-2'>
+										<p className='text-xl font-medium sm:text-2xl'>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis cumque neque ut nobis
+											excepturi, quasi iure quisquam autem alias.
+										</p>
+
+										<cite className='mt-8 inline-flex items-center not-italic'>
+											<span className='hidden h-px w-6 bg-gray-400 sm:inline-block'></span>
+											<p className='text-sm uppercase text-gray-500 sm:ms-3'>
+												<strong>Justin Harrison</strong>, Beatle Inc.
+											</p>
+										</cite>
+									</blockquote>
+								</div>
+							</section>
+						</div>
+						<div className='mx-auto max-w-5xl px-4 py-8 my-10'>
+							<section className='rounded-lg bg-gray-100  p-8'>
+								<div className='grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center'>
+									<img
+										alt='Man'
+										src='https://images.unsplash.com/photo-1625019030820-e4ed970a6c95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+										className='aspect-square w-full rounded-lg object-cover'
+									/>
+
+									<blockquote className='sm:col-span-2'>
+										<p className='text-xl font-medium sm:text-2xl'>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis cumque neque ut nobis
+											excepturi, quasi iure quisquam autem alias.
+										</p>
+
+										<cite className='mt-8 inline-flex items-center not-italic'>
+											<span className='hidden h-px w-6 bg-gray-400 sm:inline-block'></span>
+											<p className='text-sm uppercase text-gray-500 sm:ms-3'>
+												<strong>Justin Harrison</strong>, Beatle Inc.
+											</p>
+										</cite>
+									</blockquote>
+								</div>
+							</section>
+						</div>
+					</Carousel>
 				</div>
+
+				<h2 className='text-4xl font-bold sm:text-5xl mt-40 text-slate-600'>
+					Features
+					<hr />
+				</h2>
 
 				{sections.map(section => {
 					return (
@@ -150,17 +214,18 @@ export default function Home() {
 					loading='lazy'
 					referrerPolicy='no-referrer-when-downgrade'></iframe>
 
-				<section className='flex flex-row my-36'>
+				<h2 className='text-4xl font-bold sm:text-5xl mt-40  text-slate-600'>
+					Steps
+					<hr />
+				</h2>
+
+				<section className='flex flex-row mb-36 mt-12'>
 					{steps.map(step => {
 						return (
 							<article
 								key={step.id}
-								className='mr-5 overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm'>
-								<img
-									alt='Office'
-									src='https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-									className='h-56 w-full object-cover'
-								/>
+								className='mr-5 overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md w-1/3'>
+								<img alt='Office' src={step.img} className='h-56 w-full object-cover' />
 
 								<div className='p-4 sm:p-6'>
 									<a href='#'>
@@ -169,7 +234,9 @@ export default function Home() {
 
 									<p className='mt-2 line-clamp-3 text-sm/relaxed text-gray-500'>{step.description}</p>
 
-									<a href='#' className='group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600'>
+									<a
+										href='#'
+										className='group mt-4 inline-flex items-center gap-1 text-sm font-medium text-emerald-600'>
 										Find out more
 										<span aria-hidden='true' className='block transition-all group-hover:ms-0.5 rtl:rotate-180'>
 											&rarr;
